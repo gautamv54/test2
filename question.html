@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BV Test </title>
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Yatra+One&display=swap" rel="stylesheet">
+<!-- css stylesheets -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
+
+
+<!-- font awesome -->
+<script defer src="http://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- bootstrap script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body oncopy="return false" oncut="return false" onpaste="return false">
+   
+          <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href=""><span class="multi">Billionaire</span> Test</a>
+                    <ul class="navbar-nav ml-auto">
+                    <li id="demo">
+                     </li>
+                  </ul>
+              </div>
+            </nav>
+            </div>
+
+
+
+            <div class=" py-5 text-center" >
+     
+           
+              <h1 class="mota" style="padding-top: 30px;font-family: 'Yatra One', cursive;">Billionaire Test</h1>
+              <p class="lead font-weight-normal">Get your Billionaire gift....Good Luck !!</p>
+              <a class="btn btn-outline-secondary"  href="instruction.html">Instructions</a>
+            
+            <div class="product-device box-shadow d-none d-md-block"></div>
+            <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+          
+        </div>
+
+
+
+            <div class="container-contact">
+             
+              <div class="col-md-8 order-md-1">
+                <h4 class="mb-3" style="padding-top: 30px;">Fill The Form</h4>
+                <form action="https://script.google.com/macros/s/AKfycbxcD08dthus6kLPJwwp5XptfOuSOHhqKjpSb_EeOK_PiHFC29k1/exec">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+  
+                      <label for="firstName">First name<span class="text-muted">*</span></label>
+                      <input type="text" class="form-control" id="firstName" placeholder="First name.." name="firstName"required>
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="Last name.." name="lastName">
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="mb-3">
+                    <label for="address2">Registration Code<span class="text-muted">*</span> </label>
+                    <input type="number/text" class="form-control" id="" placeholder="Registration Code.." name="Registration Code"required>
+                  </div>
+                </div>
+                 </div>
+                 
+    
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("sept 11, 2020 22:44:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = hours +"h"+minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "TIME OUT";
+  }
+}, 1000);
+</script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"style="font-family: 'Yatra One', cursive;">Top</button>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+<h2 style="text-align: center; color: #900c3f;font-family: 'Yatra One', cursive;" >QUESTION PAPER</h2>
+<div class="container">
+    <div onselectstart="return false;" style="-moz-user-select: none;">
+    <h5>Q.1   The official taxi colour ?</h5>
+</div>
+
+  <h6> <label class="radio-inline">A.
+     <input type="radio" name="QUESTION-1" value="red"> red
+   </label><br>
+   
+   <label class="radio-inline">B.
+    <input type="radio" name="QUESTION-1" value="yellow"> yellow
+   </label><br>
+   <label class="radio-inline">C.
+     <input type="radio" name="QUESTION-1" value="brown"> brown
+   </label><br>
+   <label class="radio-inline">D.
+       <input type="radio" name="QUESTION-1"value="black"> black
+     </label></h6>
+ 
+
+  <div onselectstart="return false;" style="-moz-user-select: none;">
+    <h5>Q.2   The official taxi colour ?</h5>
+</div>
+  
+   <h6> <label class="radio-inline">A.
+      <input type="radio" name="QUESTION-2" value="red"> red
+    </label><br>
+    
+    <label class="radio-inline">B.
+     <input type="radio" name="QUESTION-2"value="yellow"> yellow
+    </label><br>
+    <label class="radio-inline">C.
+      <input type="radio" name="QUESTION-2"value="brown"> brown
+    </label><br>
+    <label class="radio-inline">D.
+        <input type="radio" name="QUESTION-2"value="black"> black
+      </label></h6>
+  
+
+
+  <div onselectstart="return false;" style="-moz-user-select: none;">
+    <h5>Q.3   The official taxi colour ?</h5>
+</div>
+
+  <h6> <label class="radio-inline">A.
+     <input type="radio" name="QUESTION-3"value="red"> red
+   </label><br>
+   
+   <label class="radio-inline">B.
+    <input type="radio" name="QUESTION-3"value="yellow"> yellow
+   </label><br>
+   <label class="radio-inline">C.
+     <input type="radio" name="QUESTION-3"value="brown"> brown
+   </label><br>
+   <label class="radio-inline">D.
+       <input type="radio" name="QUESTION-3"value="black"> black
+     </label></h6>
+ 
+
+
+
+  <div onselectstart="return false;" style="-moz-user-select: none;">
+    <h5>Q.4   The official taxi colour ?</h5>
+</div>
+
+  <h6> <label class="radio-inline">A.
+     <input type="radio" name="QUESTION-4"value="red"> red
+   </label><br>
+   
+   <label class="radio-inline">B.
+    <input type="radio" name="QUESTION-4"value="yellow"> yellow
+   </label><br>
+   <label class="radio-inline">C.
+     <input type="radio" name="QUESTION-4"value="brown"> brown
+   </label><br>
+   <label class="radio-inline">D.
+       <input type="radio" name="QUESTION-4"value="black"> black
+     </label></h6>
+ 
+
+
+
+  <div onselectstart="return false;" style="-moz-user-select: none;">
+    <h5>Q.5   The official taxi colour ?</h5>
+</div>
+
+  <h6> <label class="radio-inline">A.
+     <input type="radio" name="QUESTION-5"value="red"> red
+   </label><br>
+   
+   <label class="radio-inline">B.
+    <input type="radio" name="QUESTION-5"value="yellow"> yellow
+   </label><br>
+   <label class="radio-inline">C.
+     <input type="radio" name="QUESTION-5"value="brown"> brown
+   </label><br>
+   <label class="radio-inline">D.
+       <input type="radio" name="QUESTION-5"value="black"> black
+     </label></h6>
+ 
+
+  
+ 
+
+      <br><br>
+
+                <input type="submit" name="submit" value="SUBMIT"class="btn btn-outline-secondary" id="submitbutton">
+                <div class="product-device box-shadow d-none d-md-block"></div>
+                <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+  </form>
+
+</div>
+<script>
+  // self executing function
+  (function() {
+       setTimeout(function(){ 
+           //disable the button with id="submitbutton"
+           document.getElementById('submitbutton').disabled = true;
+           alert("Time out!"); 
+        }, 7200000 );  
+  
+  })();
+   </script> 
+     <!-- 7200000 for 2 houres-->
+
+
+
+<footer  class="footer">
+   
+    <a href="https://twitter.com/HomesMulti?s=09"><i class="fab fa-twitter  icon1"></i></a>
+    <a href="https://www.facebook.com/multihomesatbgp"><i class="fab fa-facebook-f  icon1"></i></a>
+    <a href="https://www.instagram.com/multi.homes/"><i class="fab fa-instagram  icon1"></i></a>
+    <i class="fas fa-envelope  icon1"></i>
+    <p class="copyright">© Copyright 2020 <span class="multiii">Billionaire</span>  <spam class="homi">Versions</spam></p>
+
+
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
